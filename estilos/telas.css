@@ -99,17 +99,17 @@
       }
       div.circulo{
         position: absolute;
-        width: 42%;
-        height: 90%;
+        width: 1300px;
+        height: 1300px;
         background-color: #017143;
         border-radius: 100%;
-        top: 255px;
-        left: 990px;
+        top: 150px;
+        left: 800px;
     }
     div.box-copo > img{
         position: absolute;
-        top: 240px;
-        left: 1050px;
+        top: 200px;
+        left: 1000px;
         width: 200px;
         z-index: 1;
         transform: rotate(-20deg);
