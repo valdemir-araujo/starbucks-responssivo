@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+/* #017143 verde
+   #eb7495 rosa
+   #d752b1 roxo
+*/
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 350px;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgb(172, 255, 255);
+  transform: translate(-50%, -50%);
+}
+div.box-logo > img {
+  width: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+div.box-texto > h2 {
+  margin: 10px;
+  line-height: 40px;
+  color: rgb(26, 26, 26);
+  font-family: "Poppins", sans-serif;
+}
+div.box-texto > h2 > span {
+  color: #017143;
+  font-size: 30px;
+  font-weight: bold;
+}
+div.box-texto > p {
+  margin: 10px;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+}
+div.box-texto > a {
+  position: absolute;
+  left: 25%;
+  color: white;
+  text-decoration: none;
+  background: #017143;
+  border-radius: 50px;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+}
+div.box-texto > a:hover {
+    text-decoration: underline;
+    background-color: #00502f;
+  }
+div.circulo{
+    position: absolute;
+    width: 95%;
+    height: 55%;
+    background-color: #017143;
+    border-radius: 100%;
+    top: 400px;
+    left: 150px;
+}
+div.box-copo > img{
+    position: absolute;
+    top: 400px;
+    left: 170px;
+    width: 110px;
+    z-index: 1;
+    transform: rotate(-20deg);
+}
+div.box-copinho > img{
+    display: flex;
+    width: 50px;
+    vertical-align: auto;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+div.box-copinho > img:hover{
+    cursor: pointer;
+    transform: translatex(15px);
+    transition: 0.7s;
+    width: 55px;
+}
+div.box-copinho{
+    position: absolute;
+    top: 320px;
+}
